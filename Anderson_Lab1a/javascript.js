@@ -33,12 +33,11 @@ function revealMap() {
   var baseMaps = {
       "Light": light,
       "Dark": dark
-  };
+    };
   L.control.layers(baseMaps).addTo(map);
-}
 
 /* Functions that assess accuracy of geolocation */
-function onLocationFound(e) {
+  function onLocationFound(e) {
     var radius = e.accuracy;
     L.marker(e.latlng).addTo(map)
         .bindPopup("You are within " + Math.round(radius * 3.28084) + " feet of this point").openPopup();
@@ -61,7 +60,8 @@ function onLocationFound(e) {
           map.removeLayer(light);
           map.addLayer(dark);
         }
-}
-function onLocationError(e) {
-  alert(e.message);
+  }
+  function onLocationError(e) {
+    alert(e.message);
+  }
 }
