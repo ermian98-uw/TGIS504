@@ -4,7 +4,7 @@
 /* javascript.js */
 
 /* Alert window */
-alert("Note: this page asks for your location information. This is in order to provide you the best user experience. We pledge not to store or share you personal information.");
+alert("Note: this page asks for your location information. This is in order to provide you the best user experience. We pledge not to store or share your personal information.");
 
 /* Mapbox basemaps variables */
 var light = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWpzbGFnZXIiLCJhIjoiZUMtVjV1ZyJ9.2uJjlUi0OttNighmI-8ZlQ', {
