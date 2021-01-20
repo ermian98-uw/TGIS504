@@ -1,0 +1,22 @@
+/* Eric Anderson */
+/* TGIS 504 */
+/* Lab 1a */
+/* style.css */
+
+/* Selectors are in alphabetical order */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+html, body, #map {
+height: 100%;
+width: 100vw;
+}
