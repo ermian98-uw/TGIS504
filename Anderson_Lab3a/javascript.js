@@ -4,7 +4,7 @@
 /* javascript.js */
 
 // Code to handle window alerts and prompts before loading map at user-specified coordinates.
-alert("Welcome! Click okay to enter the coordinates of your hometown.")
+alert("Welcome! Advance to enter the coordinates of your hometown.")
 var get_coords1 = ""
 var get_coords2 = ""
 while (get_coords1 != null) {
