@@ -129,11 +129,8 @@ function setData(e) {
     			// Create SQL expression to insert layer
                 var checkedValue = 'false';
                 var ie = document.getElementById('visit');
-                for(var i=0; ie[i]; ++i){
-                    if(ie[i].checked){
-                      checkedValue = 'true';
-                          break;
-                    }
+                if (ie.checked) {
+                  checkedValue = 'true';
                 }
                 var drawing = JSON.stringify(layer.toGeoJSON().geometry);
                 var sql =
